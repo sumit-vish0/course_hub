@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "username": "Sumeet",
+      "email": "sumitvishwakarma958@gmail.com",
+      "password": "sumit@123",
+      "confirm_password": "sumit@123",
+      "role": "user",
+      "id": "3-zYTu_zqhM"
+    },
+    {
+      "id": "N0XZPSNXcbA",
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "role": "admin"
+    },
+    {
+      "id": "oxQz_JkBvy4",
+      "username": "tom",
+      "email": "tom@gmail.com",
+      "password": "tom@123",
+      "role": "user"
+    }
+  ],
+  "courses": [
+    {
+      "cName": "JavaScript (ES6)",
+      "cPrice": "8000",
+      "cImg": "https://miro.medium.com/1*gyKubZIf0iJLskYq6HAnaQ.jpeg",
+      "cTrainer": "Akshay",
+      "cDuration": "4 Weeks",
+      "cDescription": "JavaScript (JS) is a lightweight,programming language ",
+      "id": "qcqZrhPWai8"
+    },
+    {
+      "cName": "React",
+      "cPrice": "5000",
+      "cImg": "https://miro.medium.com/1*VLiW4zOLz6lZX9_TUzg0eQ.png",
+      "cTrainer": "ravi shastry",
+      "cDuration": "5 weeks",
+      "cDescription": "Frontend Library Used To Create Single Page Application",
+      "id": "2vyHGqVMBzA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
