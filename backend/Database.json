@@ -23,7 +23,6 @@
       "role": "user"
     }
   ],
-
   "courses": [
     {
       "id": "qcqZrhPWai8",
@@ -32,15 +31,7 @@
       "cImg": "https://miro.medium.com/1*gyKubZIf0iJLskYq6HAnaQ.jpeg",
       "cTrainer": "Akshay",
       "cDuration": "4 Weeks",
-      "cDescription": "Learn modern JavaScript (ES6+) concepts including variables, functions, arrays, objects, promises, async/await, modules, and DOM manipulation.",
-      "category": "Web Development",
-      "level": "Beginner",
-      "rating": 4.7,
-      "studentsEnrolled": 1250,
-      "lessons": 32,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Learn modern JavaScript (ES6+) concepts including variables, functions, arrays, objects, promises, async/await, modules, and DOM manipulation."
     },
     {
       "id": "2vyHGqVMBzA",
@@ -49,15 +40,7 @@
       "cImg": "https://miro.medium.com/1*VLiW4zOLz6lZX9_TUzg0eQ.png",
       "cTrainer": "Ravi Shastry",
       "cDuration": "5 Weeks",
-      "cDescription": "Learn React from the basics and build modern single-page applications using components, props, state, hooks, routing, and API integration.",
-      "category": "Frontend Development",
-      "level": "Intermediate",
-      "rating": 4.8,
-      "studentsEnrolled": 980,
-      "lessons": 40,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Learn React from the basics and build modern single-page applications using components, props, state, hooks, routing, and API integration."
     },
     {
       "id": "7kLm92XpaQ1",
@@ -66,15 +49,7 @@
       "cImg": "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
       "cTrainer": "Priya Sharma",
       "cDuration": "3 Weeks",
-      "cDescription": "Learn the fundamentals of HTML and CSS and create responsive, modern, and accessible websites from scratch.",
-      "category": "Web Development",
-      "level": "Beginner",
-      "rating": 4.6,
-      "studentsEnrolled": 1450,
-      "lessons": 25,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Learn the fundamentals of HTML and CSS and create responsive, modern, and accessible websites from scratch."
     },
     {
       "id": "mN45pQrT8xY",
@@ -83,15 +58,7 @@
       "cImg": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
       "cTrainer": "Rahul Verma",
       "cDuration": "6 Weeks",
-      "cDescription": "Build scalable backend applications with Node.js, Express, REST APIs, middleware, authentication, and database integration.",
-      "category": "Backend Development",
-      "level": "Intermediate",
-      "rating": 4.7,
-      "studentsEnrolled": 760,
-      "lessons": 45,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Build scalable backend applications with Node.js, Express, REST APIs, middleware, authentication, and database integration."
     },
     {
       "id": "aB73Cd91EfG",
@@ -100,15 +67,7 @@
       "cImg": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d",
       "cTrainer": "Sneha Patel",
       "cDuration": "4 Weeks",
-      "cDescription": "Learn MongoDB and understand NoSQL database concepts, collections, documents, queries, indexing, aggregation, and database design.",
-      "category": "Database",
-      "level": "Intermediate",
-      "rating": 4.5,
-      "studentsEnrolled": 620,
-      "lessons": 30,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Learn MongoDB and understand NoSQL database concepts, collections, documents, queries, indexing, aggregation, and database design."
     },
     {
       "id": "xY82LmPq45R",
@@ -117,15 +76,7 @@
       "cImg": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       "cTrainer": "Amit Kumar",
       "cDuration": "12 Weeks",
-      "cDescription": "Master full-stack web development using MongoDB, Express.js, React, and Node.js by building real-world web applications.",
-      "category": "Full Stack Development",
-      "level": "Advanced",
-      "rating": 4.9,
-      "studentsEnrolled": 540,
-      "lessons": 85,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Master full-stack web development using MongoDB, Express.js, React, and Node.js by building real-world web applications."
     },
     {
       "id": "pQ19RsT72Uv",
@@ -134,17 +85,8 @@
       "cImg": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
       "cTrainer": "Neha Singh",
       "cDuration": "6 Weeks",
-      "cDescription": "Learn Python programming from scratch, including variables, data types, functions, OOP, file handling, modules, and exception handling.",
-      "category": "Programming",
-      "level": "Beginner",
-      "rating": 4.8,
-      "studentsEnrolled": 1320,
-      "lessons": 48,
-      "language": "English",
-      "status": "Active",
-      "certificate": true
+      "cDescription": "Learn Python programming from scratch, including variables, data types, functions, OOP, file handling, modules, and exception handling."
     }
   ],
-
   "$schema": "./node_modules/json-server/schema.json"
 }

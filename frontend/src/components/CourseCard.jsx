@@ -71,7 +71,7 @@ const CourseCard = ({ data }) => {
           {/* USER */}
           {user?.role === "user" && (
             <Link
-              to={`/coursedetails/${data.id}`}
+              to={`/course/${data.id}`}
               className="block w-full rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 px-5 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-400 hover:to-purple-500 hover:shadow-xl hover:shadow-indigo-500/25 active:translate-y-0"
             >
               View Course
@@ -82,7 +82,7 @@ const CourseCard = ({ data }) => {
           {user?.role === "admin" && (
             <div className="flex gap-3">
               <Link
-                to={`/updatecourse/${data.id}`}
+                to={`/update/${data.id}`}
                 className="flex-1 rounded-xl bg-gradient-to-r from-indigo-500 to-violet-600 px-4 py-3 text-center text-sm font-semibold text-white shadow-md shadow-indigo-500/10 transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-400 hover:to-violet-500 hover:shadow-lg hover:shadow-indigo-500/20 active:translate-y-0"
               >
                 Update

@@ -23,6 +23,14 @@ const CourseContext = ({ children }) => {
     setAllCourses([...allCourses, courseData]);
   };
 
+  let handleUpdateCourse = (courseData) => {
+    let update = allCourses.map((course) => {
+      return course.id == courseData.id ? courseData : course;
+    });
+
+    setAllCourses(update);
+  };
+
   let deleteById = async (id) => {
     let filtered = allCourses?.filter((el) => el.id != id);
     setAllCourses(filtered);
