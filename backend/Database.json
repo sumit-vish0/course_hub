@@ -31,7 +31,7 @@
       "cImg": "https://miro.medium.com/1*gyKubZIf0iJLskYq6HAnaQ.jpeg",
       "cTrainer": "Akshay",
       "cDuration": "4 Weeks",
-      "cDescription": "Learn modern JavaScript (ES6+) concepts including variables, functions, arrays, objects, promises, async/await, modules, and DOM manipulation."
+      "cDescription": "Learn modern JavaScript (ES6+) from the fundamentals to advanced concepts and develop a strong foundation for frontend development. This course covers variables, data types, operators, functions, arrow functions, arrays, objects, destructuring, spread and rest operators, template literals, higher-order functions, callbacks, promises, async/await, modules, classes, error handling, DOM manipulation, events, and browser APIs. You will also learn how to write clean, reusable, and maintainable JavaScript code through practical exercises and real-world examples."
     },
     {
       "id": "2vyHGqVMBzA",
@@ -40,7 +40,7 @@
       "cImg": "https://miro.medium.com/1*VLiW4zOLz6lZX9_TUzg0eQ.png",
       "cTrainer": "Ravi Shastry",
       "cDuration": "5 Weeks",
-      "cDescription": "Learn React from the basics and build modern single-page applications using components, props, state, hooks, routing, and API integration."
+      "cDescription": "Learn React from the basics and build modern, responsive, and interactive single-page applications. You will understand components, JSX, props, state management, event handling, conditional rendering, lists, forms, hooks, useState, useEffect, useContext, React Router, API integration, and reusable component design. The course focuses heavily on practical development and teaches you how to connect React applications with REST APIs and manage application data efficiently."
     },
     {
       "id": "7kLm92XpaQ1",
@@ -49,7 +49,7 @@
       "cImg": "https://images.unsplash.com/photo-1621839673705-6617adf9e890",
       "cTrainer": "Priya Sharma",
       "cDuration": "3 Weeks",
-      "cDescription": "Learn the fundamentals of HTML and CSS and create responsive, modern, and accessible websites from scratch."
+      "cDescription": "Build a strong foundation in web development by learning HTML and CSS from scratch. This course covers semantic HTML, headings, paragraphs, links, images, lists, tables, forms, input elements, HTML5 features, CSS selectors, colors, typography, box model, positioning, flexbox, grid, transitions, animations, responsive design, and media queries. By the end of the course, you will be able to create clean, modern, responsive, and accessible websites that work across desktop, tablet, and mobile devices."
     },
     {
       "id": "mN45pQrT8xY",
@@ -58,7 +58,7 @@
       "cImg": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
       "cTrainer": "Rahul Verma",
       "cDuration": "6 Weeks",
-      "cDescription": "Build scalable backend applications with Node.js, Express, REST APIs, middleware, authentication, and database integration."
+      "cDescription": "Learn backend development using Node.js and build scalable server-side applications. The course covers Node.js fundamentals, modules, npm, asynchronous programming, file handling, HTTP servers, Express.js, routing, middleware, REST API development, request and response handling, authentication, authorization, error handling, validation, environment variables, and database integration. You will build practical backend applications and understand how frontend applications communicate with backend services through APIs."
     },
     {
       "id": "aB73Cd91EfG",
@@ -67,7 +67,7 @@
       "cImg": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d",
       "cTrainer": "Sneha Patel",
       "cDuration": "4 Weeks",
-      "cDescription": "Learn MongoDB and understand NoSQL database concepts, collections, documents, queries, indexing, aggregation, and database design."
+      "cDescription": "Learn MongoDB, one of the most popular NoSQL databases used in modern web applications. This course explains database and NoSQL fundamentals along with databases, collections, documents, fields, CRUD operations, queries, operators, sorting, filtering, indexing, aggregation pipelines, schema design, relationships, and data modeling. You will also learn how MongoDB can be integrated with backend applications and how to design efficient database structures for real-world projects."
     },
     {
       "id": "xY82LmPq45R",
@@ -76,7 +76,7 @@
       "cImg": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
       "cTrainer": "Amit Kumar",
       "cDuration": "12 Weeks",
-      "cDescription": "Master full-stack web development using MongoDB, Express.js, React, and Node.js by building real-world web applications."
+      "cDescription": "Master full-stack web development using the MERN stack, including MongoDB, Express.js, React, and Node.js. Start by building responsive frontend interfaces with React and then learn how to create powerful backend applications and REST APIs using Node.js and Express. You will work with MongoDB for database management, implement authentication and authorization, connect frontend and backend applications, handle API requests, manage application state, validate user input, and deploy full-stack applications. The course includes real-world project development to help you understand the complete software development workflow."
     },
     {
       "id": "pQ19RsT72Uv",
@@ -85,7 +85,70 @@
       "cImg": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
       "cTrainer": "Neha Singh",
       "cDuration": "6 Weeks",
-      "cDescription": "Learn Python programming from scratch, including variables, data types, functions, OOP, file handling, modules, and exception handling."
+      "cDescription": "Learn Python programming from the basics and gradually move toward intermediate and advanced programming concepts. This course covers variables, data types, operators, conditional statements, loops, strings, lists, tuples, sets, dictionaries, functions, lambda functions, modules, packages, file handling, exception handling, object-oriented programming, inheritance, encapsulation, abstraction, and polymorphism. Through hands-on exercises and practical projects, you will develop problem-solving skills and learn how Python is used in web development, automation, APIs, data processing, and software development."
+    },
+    {
+      "id": "dJ45KpT91Lm",
+      "cName": "Django Web Development",
+      "cPrice": 9000,
+      "cImg": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "cTrainer": "Vikram Rao",
+      "cDuration": "8 Weeks",
+      "cDescription": "Learn Django and build secure, scalable, and database-driven web applications using Python. This course starts with Django project and app structure, URL routing, views, templates, static files, and the Django MVT architecture. You will then learn models, migrations, Django ORM, QuerySets, CRUD operations, forms, ModelForms, authentication, authorization, sessions, cookies, middleware, messages, file uploads, and Django Admin. Practical projects will help you understand how to build complete web applications following Django best practices."
+    },
+    {
+      "id": "rT82BnK36Wx",
+      "cName": "Django REST Framework",
+      "cPrice": 8500,
+      "cImg": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+      "cTrainer": "Karan Mehta",
+      "cDuration": "6 Weeks",
+      "cDescription": "Build professional REST APIs using Django REST Framework and learn how modern frontend applications communicate with backend systems. You will learn serializers, ModelSerializer, APIView, function-based views, class-based views, request and response objects, HTTP methods, status codes, authentication, permissions, pagination, filtering, searching, ordering, validation, and exception handling. The course also covers JWT authentication and practical API integration with frontend applications such as React, allowing you to build complete full-stack applications."
+    },
+    {
+      "id": "hG72LsP41Qa",
+      "cName": "MySQL Database",
+      "cPrice": 5500,
+      "cImg": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d",
+      "cTrainer": "Anjali Verma",
+      "cDuration": "5 Weeks",
+      "cDescription": "Learn relational database management using MySQL and develop strong SQL skills required for backend and full-stack development. The course covers database creation, tables, data types, constraints, primary keys, foreign keys, INSERT, UPDATE, DELETE, SELECT queries, filtering, sorting, grouping, aggregate functions, joins, subqueries, views, indexes, and database normalization. You will solve practical SQL problems and learn how to connect MySQL databases with backend applications and manage data efficiently."
+    },
+    {
+      "id": "zK19QwP63Rt",
+      "cName": "Git & GitHub",
+      "cPrice": 3000,
+      "cImg": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb",
+      "cTrainer": "Rohit Sharma",
+      "cDuration": "2 Weeks",
+      "cDescription": "Learn Git and GitHub to manage source code efficiently and collaborate with developers on real-world software projects. This course covers repositories, commits, branches, merging, rebasing, remote repositories, push, pull, fetch, cloning, pull requests, resolving merge conflicts, .gitignore, tags, and basic Git workflows. You will also learn how to maintain professional GitHub repositories, write useful commit messages, collaborate with team members, and manage project versions safely."
+    },
+    {
+      "id": "vB63MnR28Xp",
+      "cName": "Generative AI for Developers",
+      "cPrice": 10000,
+      "cImg": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "cTrainer": "Arjun Malhotra",
+      "cDuration": "6 Weeks",
+      "cDescription": "Learn how modern developers can use Generative AI to build intelligent and AI-powered applications. This course introduces large language models, prompt engineering, AI APIs, embeddings, text generation, structured responses, chatbot development, and integrating AI features into web applications. You will learn how to work with popular LLM APIs, send requests from backend applications, process AI responses, handle API keys securely, and build practical AI-powered features. The course is designed for developers who want to combine traditional web development skills with Generative AI technologies."
+    },
+    {
+      "id": "nC54YtL92Qs",
+      "cName": "Docker & DevOps Fundamentals",
+      "cPrice": 7500,
+      "cImg": "https://images.unsplash.com/photo-1605745341112-85968b19335b",
+      "cTrainer": "Manish Gupta",
+      "cDuration": "5 Weeks",
+      "cDescription": "Understand the fundamentals of DevOps and learn how Docker is used to package, run, and deploy modern applications. This course covers containers, images, Dockerfiles, Docker commands, volumes, networks, Docker Compose, environment variables, and containerized application development. You will also learn the basics of CI/CD, deployment workflows, version control integration, application monitoring, and cloud deployment concepts. Practical exercises will help you containerize real-world frontend and backend applications."
+    },
+    {
+      "id": "qW73FsK18Za",
+      "cName": "Python Full Stack Development",
+      "cPrice": 18000,
+      "cImg": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+      "cTrainer": "Sanjay Kumar",
+      "cDuration": "14 Weeks",
+      "cDescription": "Become a job-ready Python Full Stack Developer by learning frontend, backend, database, API development, and deployment technologies together. The course covers HTML, CSS, JavaScript, React, Python, Django, Django REST Framework, MySQL, Git, GitHub, authentication, authorization, CRUD operations, REST APIs, database integration, frontend-backend communication, and application deployment. You will build complete real-world projects and learn how different layers of a full-stack application work together. The program also includes coding practice, debugging techniques, Git workflows, and interview-oriented preparation."
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
