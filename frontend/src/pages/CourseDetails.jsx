@@ -1,10 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { CourseProvider } from "../context/CourseContext";
+import { CartProvider } from "../context/CartContext";
 
 const CourseDetails = () => {
   let navigate = useNavigate();
   const [courseData, setCourseData] = useState(null);
+
+  const { addToCart } = useContext(CartProvider);
 
   const { findById } = useContext(CourseProvider);
   const { id } = useParams();
@@ -12,6 +15,16 @@ const CourseDetails = () => {
   useEffect(() => {
     setCourseData(findById(id));
   }, [id, findById]);
+
+  const handleAddToCart = () => {
+    const added = addToCart(courseData);
+
+    if (added) {
+      navigate("/cart");
+    } else {
+      alert("Course is already in your cart.");
+    }
+  };
 
   if (!courseData) {
     return (
@@ -128,8 +141,11 @@ const CourseDetails = () => {
                 </p>
               </div>
 
-              <button className="rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-1 hover:from-indigo-400 hover:to-purple-500 hover:shadow-xl hover:shadow-indigo-500/25 active:translate-y-0">
-                Enroll Now
+              <button
+                onClick={handleAddToCart}
+                className="rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-1 hover:from-indigo-400 hover:to-purple-500 hover:shadow-xl hover:shadow-indigo-500/25 active:translate-y-0"
+              >
+                Add to Cart
               </button>
             </div>
           </div>

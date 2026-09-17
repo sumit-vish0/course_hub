@@ -3,7 +3,7 @@ import React, { createContext, useEffect, useState } from "react";
 
 export let CourseProvider = createContext();
 const CourseContext = ({ children }) => {
-  let [allCourses, setAllCourses] = useState(null); // [{} , {} , {}]
+  let [allCourses, setAllCourses] = useState([]); // [{} , {} , {}]
 
   let findById = (id) => {
     let data = allCourses?.find((el) => {

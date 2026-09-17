@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { UserProvider } from "../../context/UserContext";
+import { CartProvider } from "../../context/CartContext";
 
 const Navbar = () => {
   const { user, logout } = useContext(UserProvider);
+  const { cart } = useContext(CartProvider);
 
   return (
     <div className="flex items-center gap-2 rounded-2xl border border-slate-200/80 bg-white/90 p-2 shadow-sm backdrop-blur-md">
@@ -56,6 +58,12 @@ const Navbar = () => {
           <span className="transition-transform duration-200 group-hover:-translate-y-0.5">
             Cart
           </span>
+
+          {cart.length > 0 && (
+            <span className="ml-2 flex h-5 min-w-5 items-center justify-center rounded-full bg-indigo-600 px-1.5 text-xs font-bold text-white">
+              {cart.length}
+            </span>
+          )}
         </NavLink>
       )}
 
@@ -85,7 +93,7 @@ const Navbar = () => {
 
           {/* Logout */}
           <Link
-            to='/login'
+            to="/login"
             onClick={logout}
             className="group ml-1 flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 via-violet-600 to-purple-600 px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-indigo-200/60 transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-700 hover:via-violet-700 hover:to-purple-700 hover:shadow-lg hover:shadow-indigo-300/50 active:translate-y-0"
           >

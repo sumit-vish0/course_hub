@@ -1,12 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { CourseProvider } from "../context/CourseContext";
 import CourseCard from "../components/CourseCard";
 
 const CourseList = () => {
+  let [search, setSearch] = useState("");
+
   let { allCourses } = useContext(CourseProvider);
+
+  let filterd = allCourses?.filter((course) => {
+    return course.cName.toLowerCase().includes(search.toLowerCase());
+  });
 
   return (
     <div className="min-h-screen bg-slate-950 px-5 py-12 sm:px-8">
+      <input
+        type="text"
+        onChange={(e) => setSearch(e.target.value)}
+        placeholder="Search courses..."
+        className="mx-auto mb-10 block w-full max-w-md rounded-xl border border-slate-700 bg-slate-900 px-5 py-3.5 text-sm text-white shadow-lg outline-none placeholder:text-slate-500 transition-all duration-200 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20"
+      />{" "}
       <div className="mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-12 text-center">
@@ -29,7 +41,7 @@ const CourseList = () => {
 
         {/* Course Grid */}
         <div className="flex flex-wrap justify-center gap-8">
-          {allCourses?.map((course) => (
+          {filterd?.map((course) => (
             <CourseCard key={course.id} data={course} />
           ))}
         </div>
