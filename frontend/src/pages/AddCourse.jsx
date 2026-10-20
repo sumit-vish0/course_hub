@@ -28,7 +28,7 @@ const AddCourse = () => {
   let handleSubmit = async (e) => {
     e.preventDefault();
 
-    let res = await axios.post(`http://localhost:5000/courses`, {
+    let res = await axios.post(`https://course-portal-api.onrender.com/courses`, {
       ...courseDetails,
       id: randomId(),
     });

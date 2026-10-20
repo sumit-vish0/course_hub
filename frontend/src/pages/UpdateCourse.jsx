@@ -36,7 +36,7 @@ const UpdateCourse = () => {
     e.preventDefault();
 
     let res = await axios.put(
-      `http://localhost:5000/courses/${id}`,
+      `https://course-portal-api.onrender.com/courses/${id}`,
       courseDetails,
     );
 

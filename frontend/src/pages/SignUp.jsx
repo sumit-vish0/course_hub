@@ -40,7 +40,7 @@ const handleSubmit = async (e) => {
 
   try {
     // Check existing users
-    const usersRes = await axios.get("http://localhost:5000/users");
+    const usersRes = await axios.get("https://course-portal-api.onrender.com/users");
 
     const existingUser = usersRes.data.find(
       (user) =>
@@ -63,7 +63,7 @@ const handleSubmit = async (e) => {
     };
 
     const res = await axios.post(
-      "http://localhost:5000/users",
+      "https://course-portal-api.onrender.com/users",
       data
     );
 

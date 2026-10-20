@@ -13,7 +13,7 @@ const CourseContext = ({ children }) => {
   };
 
   let getAllCourses = async () => {
-    let res = await axios.get("http://localhost:5000/courses");
+    let res = await axios.get("https://course-portal-api.onrender.com/courses");;
     if (res.status == 200 && res.data.length > 0) {
       setAllCourses(res.data);
     }
@@ -34,7 +34,7 @@ const CourseContext = ({ children }) => {
   let deleteById = async (id) => {
     let filtered = allCourses?.filter((el) => el.id != id);
     setAllCourses(filtered);
-    let res = await axios.delete(`http://localhost:5000/courses/${id}`);
+    let res = await axios.delete(`https://course-portal-api.onrender.com/courses/${id}`);
     console.log(res);
   };
   useEffect(() => {
