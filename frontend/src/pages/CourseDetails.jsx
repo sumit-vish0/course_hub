@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { CourseProvider } from "../context/CourseContext";
 import { CartProvider } from "../context/CartContext";
+import toast from "react-hot-toast";
 
 const CourseDetails = () => {
   let navigate = useNavigate();
@@ -22,7 +23,7 @@ const CourseDetails = () => {
     if (added) {
       navigate("/cart");
     } else {
-      alert("Course is already in your cart.");
+      toast.error("Course is already in your cart.");
     }
   };
 

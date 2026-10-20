@@ -11,6 +11,7 @@ import CourseDetails from "./pages/CourseDetails";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import PrivateRoute from "./routes/PrivateRoute";
 import UpdateCourse from "./pages/UpdateCourse";
+import Payment from "./pages/Payment";
 
 const App = () => {
   let Routings = createBrowserRouter([
@@ -66,6 +67,14 @@ const App = () => {
         {
           path: "/*",
           element: <PageNotFound />,
+        },
+        {
+          path: "/payment",
+          element: (
+            <ProtectedRoute>
+              <Payment />
+            </ProtectedRoute>
+          ),
         },
       ],
     },

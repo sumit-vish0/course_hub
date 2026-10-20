@@ -125,9 +125,12 @@ const Cart = () => {
               </span>
             </div>
 
-            <button className="mt-7 w-full rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-400 hover:to-purple-500">
+            <Link
+              to="/payment"
+              className="mt-7 block w-full rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 px-6 py-3.5 text-center text-sm font-bold text-white shadow-lg shadow-indigo-500/20 transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-400 hover:to-purple-500"
+            >
               Proceed to Checkout
-            </button>
+            </Link>
           </div>
         </div>
       </div>
