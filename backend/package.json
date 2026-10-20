@@ -1,0 +1,12 @@
+{
+  "name": "course-portal-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server --host 0.0.0.0 --port $PORT Database.json"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
+
