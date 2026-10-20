@@ -35,7 +35,7 @@ const Login = () => {
 
     try {
       const res = await axios.get(
-        `http://https://course-portal-api.onrender.com/users?email=${email}&password=${password}&role=${role}`,
+        `https://course-portal-api.onrender.com/users?email=${email}&password=${password}&role=${role}`,
       );
 
       if (res.status === 200 && res.data.length > 0) {
